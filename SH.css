@@ -1,0 +1,1382 @@
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-transform: none;
+    outline: none; border:none;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+html{
+    flex: 1;
+    overflow: scroll;
+}
+
+body{
+    background-color: #000;
+    min-height: 100vh;
+    justify-content: space-between;
+    background: url(images/bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#header{
+    width: 100%;
+    height: 100vh;
+}
+.container{
+    padding: 2px 10%;
+}
+.logo{
+    width: 80px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+nav ul li a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 200;
+    text-decoration: none;
+    position: relative;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+nav ul li a:hover{
+    font-size: 23px;
+    color: red;
+}
+.h-text{
+    color: #fff;
+    margin-top: 42px;
+    font-size: 40px;
+}
+.h-text h1{
+    margin-top: 20px;
+    font-size: 40px;
+}
+.h-text h1 span{
+    margin-top: 20px;
+    font-size: 60px;
+
+}
+.h-text h2{
+    margin-top: 20px;
+    font-size: 40px;
+}
+.h-text h2 span{
+    margin-top: 20px;
+    font-size: 70px;
+}
+.btn{
+    padding: 10px 50px;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid black;
+    border-color: #000;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: 1s;
+}
+.btn:hover{
+    background-color: #929292;
+    color: #fff;
+}
+/*-------------about-------------*/
+#about{
+    padding: 80px 0;
+    color: #fff;
+}
+.row{
+    justify-content: space-between;
+}
+.col-1{
+    flex-basis: 35%;
+    background-image: white;
+}
+.col-1 img{
+    width: 150px;
+}
+.col-2{
+    flex-basis: 60%;
+}
+.sub-title{
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;
+}
+.a-text{
+    margin-top: 10px;
+    font-size: 25px;
+}
+.tab-titles{
+    margin: 10px 0 40px;
+}
+.skills{
+    margin-right: 30px;
+    font-size: 25px;
+    font-weight: 1000;
+    margin-bottom: 10px;
+}
+.skills h3{
+    font-weight: 400;
+    letter-spacing: 10px;
+    margin-top: 150px;
+    margin-bottom: 10px;
+    color: #000;
+    font-size: 20px;
+    font-weight: 100;
+}
+.progress-bar{
+    background: #959595;
+    width: 100%;
+    height: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.progress-bar div{
+    height: 20px;
+    border-radius: 5px;
+    width: 90%;
+}
+.progress-bar div span{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #222;
+    float: right;
+    margin-top: -10px;
+    margin-right: -20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.progress-bar1{
+    background: #959595;
+    width: 100%;
+    height: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.progress-bar1 div{
+    height: 20px;
+    border-radius: 5px;
+    width: 85%;
+}
+.progress-bar1 div span{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #222;
+    float: right;
+    margin-top: -10px;
+    margin-right: -20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.progress-bar2{
+    background: #959595;
+    width: 100%;
+    height: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.progress-bar2 div{
+    height: 20px;
+    border-radius: 5px;
+    width: 62%;
+}
+.progress-bar2 div span{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #222;
+    float: right;
+    margin-top: -10px;
+    margin-right: -20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.progress-bar3{
+    background: #959595;
+    width: 100%;
+    height: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.progress-bar3 div{
+    height: 20px;
+    border-radius: 5px;
+    width: 45%;
+}
+.progress-bar3 div span{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #222;
+    float: right;
+    margin-top: -10px;
+    margin-right: -20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.html{
+    background: #ff7300;
+}
+.css{
+    background: #4fceee;
+}
+.javascript{
+    background: #fffb00;
+}
+.ui{
+    background: #8affad;
+}
+.html span{
+    border: 1px solid #ff7300;
+    animation: html 1s linear forwards;
+}
+.css span{
+    border: 1px solid #4fceee;
+    animation: css 1s linear forwards;
+}
+.javascript span{
+    border: 1px solid #fffb00;
+    animation: javascript 1s linear forwards;
+}
+.ui span{
+    border: 1px solid #8affad;
+    animation: android 1s linear forwards;
+}
+/*---services---*/
+#services{
+    padding: 30px 0;
+}
+.services-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.services-list div{
+    background-color: #6e6d6d;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 1000;
+    border-radius: 10px;
+    color: #fff;
+    transition: background 1s;
+}
+.services-list div i{
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+.services-list div h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.services-list div a{
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 20px;
+    color: #000;
+    display: inline-block;
+}
+.services-list div:hover{
+    background: #fff;
+    color: #000;
+}
+.services-list div a:hover{
+    color: #ff0000;
+}
+/*------portfolio------*/
+#portfolio{
+    padding: 90px 0;
+}
+.work-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.work{
+    border: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.work img{
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+.layer{
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(255, 255, 255, 0.425));
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 1s;
+}
+.layer h3{
+    font-weight: 1000;
+    margin-bottom: 30px;
+    color: #fff;
+}
+.layer p{
+    color: #fff;
+}
+.layer a{
+    margin-top: 20px;
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+}
+.layer a:hover{
+    background-color: green;
+    color: white;
+}
+.work:hover img{
+    transform: scale(1.1);
+}
+.work:hover .layer{
+    height: 100%;
+}
+/*-------contact-------*/
+.contact-left{
+    flex-basis: 35%;
+}
+.contact-right{
+    flex-basis: 60%;
+}
+.contact-right h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.contact-left p{
+    margin-top: 30px;
+    color: #fff;
+}
+.contact-left p i{
+    color: #fff;
+    margin-right: 5px;
+    font-size: 15px;
+}
+.social-icons{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #fff;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.social-icons a #a:hover{
+    color: #4267B2;
+    transform: translateY(-5px);
+}
+.social-icons a #b:hover{
+    color: #1DA1F2;
+    transform: translateY(-5px);
+}
+.social-icons a #c:hover{
+    color: transparent;
+    background: -webkit-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -o-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    transform: translateY(-5px);
+}
+.social-icons a #d:hover{
+    color: #000;
+    transform: translateY(-5px);
+}
+.contact-right form{
+    width: 100%;
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #fff;
+    padding: 15px;
+    margin: 15px 0;
+    color: #000;
+    font-size: 18px;
+    border-radius: 6px;
+}
+form .btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #262626;
+    font-weight: 300;
+    margin-top: 20px;
+    color: #fff;
+}
+.copyright i{
+    color: #ff0000;
+}
+nav .bi{
+    display: none;
+}
+#preloader{
+    background: #000 url(images/l.gif) no-repeat center center;
+    background-size: 50%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+/*----------------------media query-------------------*/
+@media only screen and (min-width: 425px) and (max-width: 600px){
+    body{
+        background-color: #000;
+        min-height: 100vh;
+        justify-content: space-between;
+        background: url(images/bg.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .h-text{
+        margin-top: 180px;
+        font-size: 30px;
+    }
+    .h-text h1{
+        font-size: 25px;
+    }
+    .h-text h1 span{
+        font-size: 50px;
+    }
+    .h-text h2{
+        font-size: 25px;
+    }
+    .h-text h2 span{
+        font-size: 36px;
+    }
+    nav .bi{
+        display: block;
+        font-size: 25px;
+        color: #fff;
+    }
+    nav ul{
+        background-color: #fff;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+    nav ul li a{
+        color:#000;
+    }
+    nav ul li a:hover{
+        color: red;
+    }
+    nav ul .bi{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+        color: #000;
+    }
+    .btn{
+        padding: 5px 20px;
+        font-size: 20px;
+    }
+    .sub-title{
+        font-size: 40px;
+    }
+    .a-text{
+        font-size: 15px;
+    }
+    .skills{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .progress-bar{
+        background: #959595;
+        width: 100%;
+        height: 20px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+    .progress-bar div{
+        height: 20px;
+        border-radius: 5px;
+        width: 90%;
+    }
+    .progress-bar div span{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background: #222;
+        float: right;
+        margin-top: -10px;
+        margin-right: -20px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .progress-bar1{
+        background: #959595;
+        width: 100%;
+        height: 20px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+    .progress-bar1 div{
+        height: 20px;
+        border-radius: 5px;
+        width: 85%;
+    }
+    .progress-bar1 div span{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background: #222;
+        float: right;
+        margin-top: -10px;
+        margin-right: -20px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .progress-bar2{
+        background: #959595;
+        width: 100%;
+        height: 20px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+    .progress-bar2 div{
+        height: 20px;
+        border-radius: 5px;
+        width: 62%;
+    }
+    .progress-bar2 div span{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background: #222;
+        float: right;
+        margin-top: -10px;
+        margin-right: -20px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .progress-bar3{
+        background: #959595;
+        width: 100%;
+        height: 20px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+    .progress-bar3 div{
+        height: 20px;
+        border-radius: 5px;
+        width: 45%;
+    }
+    .progress-bar3 div span{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background: #222;
+        float: right;
+        margin-top: -10px;
+        margin-right: -20px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .html{
+        background: #ff7300;
+    }
+    .css{
+        background: #4fceee;
+    }
+    .javascript{
+        background: #fffb00;
+    }
+    .ui{
+        background: #8affad;
+    }
+    .html span{
+        border: 1px solid #ff7300;
+        animation: html 1s linear forwards;
+    }
+    .css span{
+        border: 1px solid #4fceee;
+        animation: css 1s linear forwards;
+    }
+    .javascript span{
+        border: 1px solid #fffb00;
+        animation: javascript 1s linear forwards;
+    }
+    .ui span{
+        border: 1px solid #8affad;
+        animation: ui 1s linear forwards;
+    }
+    .contact-left, .contact-right{
+        flex-basis: 100%;
+    }
+    #preloader{
+        background: #000 url(images/l.gif) no-repeat center center;
+        background-size: 60%;
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        z-index: 100;
+    }
+}
+@media only screen and (min-width: 325px) and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+    body{
+        background-color: #000;
+        min-height: 100vh;
+        justify-content: space-between;
+        background: url(images/bg.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .h-text{
+        margin-top: 150px;
+        font-size: 30px;
+    }
+    .h-text h1{
+        font-size: 25px;
+    }
+    .h-text h1 span{
+        font-size: 35px;
+    }
+    .h-text h2{
+        font-size: 20px;
+    }
+    .h-text h2 span{
+        font-size: 28px;
+    }
+    nav .bi{
+        display: block;
+        font-size: 25px;
+        color: #fff;
+    }
+    nav ul{
+        background-color: #fff;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+    nav ul li a{
+        color:#000;
+    }
+    nav ul li a:hover{
+        color: red;
+    }
+    nav ul .bi{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+        color: #000;
+    }
+    .btn{
+        padding: 5px 20px;
+        font-size: 20px;
+    }
+    .sub-title{
+        font-size: 40px;
+    }
+    .a-text{
+        font-size: 15px;
+    }
+    .skills{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .progress-bar{
+        background: #959595;
+        width: 100%;
+        height: 20px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+    .progress-bar div{
+        height: 20px;
+        border-radius: 5px;
+        width: 90%;
+    }
+    .progress-bar div span{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background: #222;
+        float: right;
+        margin-top: -10px;
+        margin-right: -20px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .progress-bar1{
+        background: #959595;
+        width: 100%;
+        height: 20px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+    .progress-bar1 div{
+        height: 20px;
+        border-radius: 5px;
+        width: 85%;
+    }
+    .progress-bar1 div span{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background: #222;
+        float: right;
+        margin-top: -10px;
+        margin-right: -20px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .progress-bar2{
+        background: #959595;
+        width: 100%;
+        height: 20px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+    .progress-bar2 div{
+        height: 20px;
+        border-radius: 5px;
+        width: 62%;
+    }
+    .progress-bar2 div span{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background: #222;
+        float: right;
+        margin-top: -10px;
+        margin-right: -20px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .progress-bar3{
+        background: #959595;
+        width: 100%;
+        height: 20px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+    .progress-bar3 div{
+        height: 20px;
+        border-radius: 5px;
+        width: 45%;
+    }
+    .progress-bar3 div span{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background: #222;
+        float: right;
+        margin-top: -10px;
+        margin-right: -20px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .html{
+        background: #ff7300;
+    }
+    .css{
+        background: #4fceee;
+    }
+    .javascript{
+        background: #fffb00;
+    }
+    .ui{
+        background: #8affad;
+    }
+    .html span{
+        border: 1px solid #ff7300;
+        animation: html 1s linear forwards;
+    }
+    .css span{
+        border: 1px solid #4fceee;
+        animation: css 1s linear forwards;
+    }
+    .javascript span{
+        border: 1px solid #fffb00;
+        animation: javascript 1s linear forwards;
+    }
+    .ui span{
+        border: 1px solid #8affad;
+        animation: ui 1s linear forwards;
+    }
+    .contact-left, .contact-right{
+        flex-basis: 100%;
+    }
+    .contact-left p{
+        margin-top: 30px;
+        color: #fff;
+        font-size: 15px;
+    }
+    .contact-left p i{
+        color: #fff;
+        margin-right: 5px;
+        font-size: 13px;
+    }
+    #preloader{
+        background: #000 url(images/l.gif) no-repeat center center;
+        background-size: 70%;
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        z-index: 100;
+    }
+}
+@media only screen and (min-width: 601px) and (max-width: 1200px){
+    body{
+        background-color: #000;
+        min-height: 100vh;
+        justify-content: space-between;
+        background: url(images/bg.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .h-text{
+        margin-top: 180px;
+        font-size: 25px;
+    }
+    .h-text h1{
+        font-size: 30px;
+    }
+    .h-text h1 span{
+        font-size: 50px;
+    }
+    .h-text h2{
+        font-size: 30px;
+    }
+    .h-text h2 span{
+        font-size: 40px;
+    }
+    nav .bi{
+        display: block;
+        font-size: 25px;
+        color: white;
+    }
+    nav ul{
+        background-color: #ffffff;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+    nav ul li a{
+        color:#000;
+    }
+    nav ul li a:hover{
+        color: red;
+    }
+    nav ul .bi{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+        color: #000;
+    }
+    .btn{
+        padding: 5px 20px;
+        font-size: 20px;
+    }
+    .sub-title{
+        font-size: 40px;
+    }
+    .a-text{
+        font-size: 15px;
+    }
+    .skills{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .progress-bar{
+        background: #959595;
+        width: 100%;
+        height: 20px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+    .progress-bar div{
+        height: 20px;
+        border-radius: 5px;
+        width: 90%;
+    }
+    .progress-bar div span{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background: #222;
+        float: right;
+        margin-top: -10px;
+        margin-right: -20px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .progress-bar1{
+        background: #959595;
+        width: 100%;
+        height: 20px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+    .progress-bar1 div{
+        height: 20px;
+        border-radius: 5px;
+        width: 85%;
+    }
+    .progress-bar1 div span{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background: #222;
+        float: right;
+        margin-top: -10px;
+        margin-right: -20px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .progress-bar2{
+        background: #959595;
+        width: 100%;
+        height: 20px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+    .progress-bar2 div{
+        height: 20px;
+        border-radius: 5px;
+        width: 62%;
+    }
+    .progress-bar2 div span{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background: #222;
+        float: right;
+        margin-top: -10px;
+        margin-right: -20px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .progress-bar3{
+        background: #959595;
+        width: 100%;
+        height: 20px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+    .progress-bar3 div{
+        height: 20px;
+        border-radius: 5px;
+        width: 45%;
+    }
+    .progress-bar3 div span{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background: #222;
+        float: right;
+        margin-top: -10px;
+        margin-right: -20px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .html{
+        background: #ff7300;
+    }
+    .css{
+        background: #4fceee;
+    }
+    .javascript{
+        background: #fffb00;
+    }
+    .ui{
+        background: #8affad;
+    }
+    .html span{
+        border: 1px solid #ff7300;
+        animation: html 1s linear forwards;
+    }
+    .css span{
+        border: 1px solid #4fceee;
+        animation: css 1s linear forwards;
+    }
+    .javascript span{
+        border: 1px solid #fffb00;
+        animation: javascript 1s linear forwards;
+    }
+    .ui span{
+        border: 1px solid #8affad;
+        animation: ui 1s linear forwards;
+    }
+    .contact-left, .contact-right{
+        flex-basis: 100%;
+    }
+    #preloader{
+        background: #000 url(images/l.gif) no-repeat center center;
+        background-size: 70%;
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        z-index: 100;
+    }
+}
+@media only screen and (max-width: 324px){
+    body{
+        background-color: #000;
+        min-height: 100vh;
+        justify-content: space-between;
+        background: url(images/bg.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .h-text{
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .h-text h1{
+        font-size: 15px;
+    }
+    .h-text h1 span{
+        font-size: 25px;
+    }
+    .h-text h2{
+        font-size: 15px;
+    }
+    .h-text h2 span{
+        font-size: 25px;
+    }
+    nav .bi{
+        display: block;
+        font-size: 25px;
+        color: #fff;
+    }
+    nav ul{
+        background-color: #fff;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+    nav ul li a{
+        color:#000;
+    }
+    nav ul li a:hover{
+        color: red;
+    }
+    nav ul .bi{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+        color: #000;
+    }
+    .btn{
+        padding: 5px 20px;
+        font-size: 20px;
+    }
+    .sub-title{
+        font-size: 40px;
+    }
+    .a-text{
+        font-size: 15px;
+    }
+    .skills{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .progress-bar{
+        background: #959595;
+        width: 100%;
+        height: 20px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+    .progress-bar div{
+        height: 20px;
+        border-radius: 5px;
+        width: 90%;
+    }
+    .progress-bar div span{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background: #222;
+        float: right;
+        margin-top: -10px;
+        margin-right: -20px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .progress-bar1{
+        background: #959595;
+        width: 100%;
+        height: 20px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+    .progress-bar1 div{
+        height: 20px;
+        border-radius: 5px;
+        width: 85%;
+    }
+    .progress-bar1 div span{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background: #222;
+        float: right;
+        margin-top: -10px;
+        margin-right: -20px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .progress-bar2{
+        background: #959595;
+        width: 100%;
+        height: 20px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+    .progress-bar2 div{
+        height: 20px;
+        border-radius: 5px;
+        width: 62%;
+    }
+    .progress-bar2 div span{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background: #222;
+        float: right;
+        margin-top: -10px;
+        margin-right: -20px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .progress-bar3{
+        background: #959595;
+        width: 100%;
+        height: 20px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+    .progress-bar3 div{
+        height: 20px;
+        border-radius: 5px;
+        width: 45%;
+    }
+    .progress-bar3 div span{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background: #222;
+        float: right;
+        margin-top: -10px;
+        margin-right: -20px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .html{
+        background: #ff7300;
+    }
+    .css{
+        background: #4fceee;
+    }
+    .javascript{
+        background: #fffb00;
+    }
+    .ui{
+        background: #8affad;
+    }
+    .html span{
+        border: 1px solid #ff7300;
+        animation: html 1s linear forwards;
+    }
+    .css span{
+        border: 1px solid #4fceee;
+        animation: css 1s linear forwards;
+    }
+    .javascript span{
+        border: 1px solid #fffb00;
+        animation: javascript 1s linear forwards;
+    }
+    .ui span{
+        border: 1px solid #8affad;
+        animation: ui 1s linear forwards;
+    }
+    .contact-left, .contact-right{
+        flex-basis: 100%;
+    }
+    .contact-left p{
+        margin-top: 30px;
+        color: #fff;
+        font-size: 15px;
+    }
+    .contact-left p i{
+        color: #fff;
+        margin-right: 5px;
+        font-size: 10px;
+    }
+    #preloader{
+        background: #000 url(images/l.gif) no-repeat center center;
+        background-size: 70%;
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        z-index: 100;
+    }
+}
